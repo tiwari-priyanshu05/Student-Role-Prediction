@@ -8,7 +8,7 @@ with open("model(final).pkl", "rb") as f:
     model = pickle.load(f)
 
 # Load label encoders
-with open("label_encoders(final).pkl", "rb") as f:
+with open("label_encoders(fiinal).pkl", "rb") as f:
     label_encoders = pickle.load(f)
 
 # Page Configuration
