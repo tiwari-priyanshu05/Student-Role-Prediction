@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 
 # Load trained model
-with open("model.pkl", "rb") as f:
+with open("model(final).pkl", "rb") as f:
     model = pickle.load(f)
 
 # Load label encoders
